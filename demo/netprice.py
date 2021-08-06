@@ -7,5 +7,9 @@ discounted_price = price - discount
 tax = discounted_price * 8 / 100
 net_price = discounted_price + tax
 
-print('Net price = ', net_price)
+print(f"Price         {price:10.2f}")
+print(f"- Discount    {discount:10.2f}")
+print(f"              {discounted_price:10.2f}")
+print(f"+ Tax         {tax:10.2f}")
+print(f"Net P         {net_price:10.2f}")
 
