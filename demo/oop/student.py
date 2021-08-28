@@ -7,6 +7,10 @@ class Student:
     def getcount():
         return Student.count
 
+    @staticmethod
+    def getcoursefee(course):
+        return Student.courses[course]
+
     # Constructor
     def __init__(self, name, course, feepaid=0):
         # Object attributes
@@ -41,3 +45,5 @@ s2.pay(3000)
 s2.pay(2000)
 
 print(f"No. of students : {Student.getcount()}")
+
+print(Student.getcoursefee('Java'))
