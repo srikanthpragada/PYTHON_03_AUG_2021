@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="" ?>
+<courses>
+    <course>
+        <title>AWS Fundamentals</title>
+        <fee>5000</fee>
+    </course>
+    <course>
+        <title>Python</title>
+        <fee>4000</fee>
+    </course>
+    <course>
+        <title>Java EE</title>
+        <fee>7500</fee>
+    </course>
+    <course>
+        <title>Angular</title>
+        <fee>3000</fee>
+    </course>
+</courses>
