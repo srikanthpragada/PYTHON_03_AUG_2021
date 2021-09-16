@@ -1,8 +1,9 @@
 import requests
 
 city = "Visakhapatnam"
+yourid = ""
 response = requests.get(
-    f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid=a336037d7de7c3966918c60e3419791a")
+    f"https://api.openweathermap.org/data/2.5/weather?q={city}&appid={yourid}")
 if response.status_code != 200:
     print(f"Sorry! Could not get details for city - {city}!")
     exit(1)
