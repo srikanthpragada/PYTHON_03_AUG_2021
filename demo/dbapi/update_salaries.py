@@ -1,3 +1,4 @@
+# Take data from salaries.txt and update Salaries table
 import sqlite3
 import dbutil
 
